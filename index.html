@@ -10,17 +10,74 @@
 </head>
 <body>
 
-    <div class="">
-        <header class="">
+    <div class="container-fluid">
+        <header class="row justify-content-center">
             <h1 class="">Rule Requests</h1>
         </header>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
 
         <div class="row">
             <h3 class="col-2">Rule Title:</h3>
             <input class="col-10" type="text" name="rule-title" id="rule-title">
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <form class="col-4" action="/action_page.php">
+                <label for="type">Rule Type:</label>
+                <select name="type" id="type">
+                    <option value="select"></option>
+                    <option value="routing-guide">Routing Guide</option>
+                    <option value="shipping">Shipping</option>
+                    <option value="gift-with-purchase">Gift with purchase</option>
+                    <option value="insert">Insert</option>
+                </select>
+                <br><br>
+            </form>
+            
+            <div class=" row col-4">
+                <p>Due Date:</p>
+                <input type="date">
+            </div>
+
+            <div class=" row col-4">
+                <p>Date in Effect:</p>
+                <input type="date">
+                <input type="date">
+            </div>
+
+            <div class=" row col-4">
+                <p>SKU:</p>
+                <input type="text">
+            </div>
+
+            <form class="col-4" action="/action_page.php">
+                <label for="type">Order Source:</label>
+                <select name="type" id="type">
+                    <option value="select"></option>
+                    <option value="routing-guide">DTC</option>
+                    <option value="routing-guide">B2B</option>
+                </select>
+                <br><br>
+            </form>
+        
+        </div>
+    </div>
+
+    <div class="container-fluid">
+
+        <div>
+            <p>Description</p>
+        </div>
+
+        <div class=" row justify-content-center">
+            <input class="col-12" type="text">
         </div>
 
     </div>
