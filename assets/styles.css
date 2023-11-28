@@ -1,0 +1,68 @@
+#title-container{
+    margin: 50px;
+}
+
+#rule-input {
+    background-color: #f8f8f8;
+}
+
+#option-container {
+    background-color: #f8f8f8;
+    margin-top: 50px;
+    
+}
+
+#type{
+    height: 25px;
+    width: 130px;
+}
+
+#due-date{
+    margin-right: 10px;
+}
+
+#date{
+    margin: auto;
+    margin-left: 10px;
+    height: 25px;
+    width: 130px;
+}
+
+#from-date{
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 5px;
+    height: 25px;
+    width: 130px;
+}
+
+#to-date{
+    margin: auto;
+    margin-left: 5px;
+    height: 25px;
+    width: 130px;
+}
+
+#sku{
+    margin-right: 10px;
+}
+
+#sku-input{
+    margin: auto;
+    margin-left: 10px;
+    height: 25px;
+    width: 130px;
+}
+
+#source{
+    height: 25px;
+    width: 130px;
+}
+
+#description{
+margin-top: 50px;
+}
+
+#desc-input{
+    background-color: #f8f8f8;
+  }

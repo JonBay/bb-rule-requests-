@@ -16,20 +16,19 @@
         </header>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="title-container">
 
-        <div class="row">
-            <h3 class="col-2">Rule Title:</h3>
-            <input class="col-10" type="text" name="rule-title" id="rule-title">
+        <div class="row justify-content-center">
+            <input class="col-8" type="text" name="rule-title" id="rule-input" placeholder="Title...">
         </div>
 
     </div>
 
     <div class="container-fluid">
 
-        <div class="row">
+        <div class="row justify-content-center" id="option-container">
 
-            <form class="col-4" action="/action_page.php">
+            <form class="col-2" action="/action_page.php">
                 <label for="type">Rule Type:</label>
                 <select name="type" id="type">
                     <option value="select"></option>
@@ -41,25 +40,27 @@
                 <br><br>
             </form>
             
-            <div class=" row col-4">
-                <p>Due Date:</p>
-                <input type="date">
+            <div class=" row col-2">
+                <p id="due-date">Due Date:</p>
+                <input type="date" id="date">
             </div>
 
             <div class=" row col-4">
-                <p>Date in Effect:</p>
-                <input type="date">
-                <input type="date">
+                <p id="date-in-effect">Date in effect:</p>
+                <input type="date" id="from-date">
+                <input type="date" id="to-date">
             </div>
 
-            <div class=" row col-4">
-                <p>SKU:</p>
-                <input type="text">
+            <div class="w-100"></div>
+
+            <div class=" row col-2">
+                <p id="sku">SKU:</p>
+                <input type="text" id="sku-input">
             </div>
 
-            <form class="col-4" action="/action_page.php">
+            <form class="col-2" action="/action_page.php">
                 <label for="type">Order Source:</label>
-                <select name="type" id="type">
+                <select name="type" id="source">
                     <option value="select"></option>
                     <option value="routing-guide">DTC</option>
                     <option value="routing-guide">B2B</option>
@@ -73,11 +74,11 @@
     <div class="container-fluid">
 
         <div>
-            <p>Description</p>
+            <p class="col-4 offset-2" id="description">Description</p>
         </div>
 
-        <div class=" row justify-content-center">
-            <input class="col-12" type="text">
+        <div class="row">
+            <textarea class="col-5 offset-2" id="desc-input" name="subject" placeholder="Write something..." style="height:300px"></textarea>
         </div>
 
     </div>
