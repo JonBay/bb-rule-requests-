@@ -1,0 +1,8 @@
+var title = document.getElementById("#title")
+var description = document.getElementById("#description")
+var  ruleType= document.getElementById("#title")
+var dueDate = document.getElementById("#duedate")
+var startDate = document.getElementById("#startdate")
+var endDate = document.getElementById("#enddate")
+var sku = document.getElementById("#sku")
+var orderSource = document.getElementById("#ordersource")
